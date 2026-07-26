@@ -1,0 +1,15 @@
+thresholds:
+  cpu_percent: 85
+  memory_percent: 85
+  disk_percent: 90
+  inode_percent: 90
+
+check_interval_seconds: 30
+
+services_to_watch:
+  - nginx
+  - sshd
+
+slack_webhook_url: "https://hooks.slack.com/services/your/webhook/url"
+
+log_db_path: "incidents.db"
