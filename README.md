@@ -1,4 +1,4 @@
-# Self-Healing Linux Monitor
+# Self-Healing Linux Monitor 
 
 A lightweight Python tool that monitors system health (CPU, memory,
 disk, inodes, critical services) and automatically remediates common
